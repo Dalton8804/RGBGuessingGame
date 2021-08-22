@@ -15,6 +15,7 @@ bSlide = Scale(frame1, from_=0,to=255,orient=HORIZONTAL,bd=.5,troughcolor="#FFFF
 
 def getVal():
 	return random.randint(0,255)
+	
 r,g,b = getVal(),getVal(),getVal()
 colorval = "#%02x%02x%02x" % (r, g, b)
 
