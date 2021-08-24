@@ -69,7 +69,7 @@ bSlide.grid(row = 2,column = 1)
 frame1.pack()
 
 resetBtn = Button(tk, command=reset, text='New Color').pack()
-cycleBtn = Button(tk, command=cycle, text='Cycle Colors').pack()
+#cycleBtn = Button(tk, command=cycle, text='Cycle Colors').pack()
 guessBtn = Button(tk, command=guess, text='Make Guess').pack()
 frame.pack()
 tk.mainloop()
