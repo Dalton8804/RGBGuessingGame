@@ -3,6 +3,7 @@ import random
 import time,math
 
 tk = Tk()
+tk.title("RGB Guess")
 canvas = Canvas(tk,height = 600, width=1000)
 frame = Frame(tk)
 frame1 = Frame(tk)
